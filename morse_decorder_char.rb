@@ -9,11 +9,10 @@ def decorder_a(morse_char)
   }
 
   decoder_char(morse_char, morse_decorder)
-
 end
 
 def decoder_char(morse_char, morse_decorder)
-  morse_decorder[morse_char] || "Unknown Code given"
+  morse_decorder[morse_char] || 'Unknown Code given'
 end
 
 print decorder_a('-...')
